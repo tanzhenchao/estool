@@ -36,6 +36,7 @@ estool expired-rm 360
 estool topic-rm
 Usage: /usr/local/bin/estool shrink-shard &lt;retention days&gt;
 </pre>
+实现原理，请参阅，https://www.cmdschool.org/archives/30945
 <h3>2.3.2 命令范例</h3>
 <pre>
 estool shrink-shard 180
