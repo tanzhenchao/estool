@@ -5,6 +5,14 @@ Elasticsearch命令行工具
 ~~~
 cp ~/scripts/esTools.sh /usr/local/bin/estool
 chmod +x /usr/local/bin/estool
+vim /usr/local/bin/estool
+~~~
+修改如下参数，根据你的ES服务器实际填写即可，
+~~~
+esUser="elastic"
+esPasswd="elasticpwd"
+esHost="http://eslogsys.cmdschool.org:9200"
+esLog="/var/log/esTools.log"
 ~~~
 2. 使用方法
 2.1 获取帮助
