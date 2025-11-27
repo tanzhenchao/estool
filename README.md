@@ -40,7 +40,7 @@ Usage: /usr/local/bin/estool shrink-shard &lt;retention days&gt;
 <pre>
 estool shrink-shard 180
 </pre>
-<h2>2.4 删除超过60包含某主题关键字的索引</h2>
+<h2>2.4 删除超过60天包含某主题关键字的索引</h2>
 <h3>2.4.1 命令帮助</h3>
 <pre>
 estool shrink-shard
