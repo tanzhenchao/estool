@@ -14,6 +14,11 @@ esPasswd="elasticpwd"
 esHost="http://eslogsys.cmdschool.org:9200"
 esLog="/var/log/esTools.log"
 </pre>
+需要注意的而是，脚本只会查找命名规则为"postfix-2015.10.01"的索引，匹配范例如下，
+<pre>
+echo "postfix-2015.10.01" | grep -E '^[a-zA-Z0-9_-]+-[0-9]{4}\.[0-9]{2}\.[0-9]{2}$'
+</pre>
+你如果有其他需求，请自行修改代码的正则表达式。
 <h1>2 使用方法</h1>
 <h2>2.1 获取帮助</h2>
 <pre>
