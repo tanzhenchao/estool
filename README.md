@@ -1,4 +1,4 @@
-# estools
+# estool
 Elasticsearch命令行工具
 
 <h1>1 安装方法</h1>
