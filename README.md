@@ -14,7 +14,7 @@ esPasswd="elasticpwd"
 esHost="http://eslogsys.cmdschool.org:9200"
 esLog="/var/log/esTools.log"
 </pre>
-需要注意的是，脚本只会查找命名规则为"postfix-2015.10.01"的索引，匹配范例如下，
+需要注意的是，脚本只查找命名规则为“主题-日期”即“postfix-2015.10.01”的索引，匹配正则表达式如下，
 <pre>
 echo "postfix-2015.10.01" | grep -E '^[a-zA-Z0-9_-]+-[0-9]{4}\.[0-9]{2}\.[0-9]{2}$'
 </pre>
