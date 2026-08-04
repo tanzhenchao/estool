@@ -28,7 +28,7 @@ Usage: /usr/local/bin/estool {expired-rm|topic-rm|shrink-shard}
 ### 2.2.1 命令帮助
 ~~~
 # estool expired-rm
-Usage: /usr/local/bin/estool expired-rm &lt;retention days&gt;
+Usage: /usr/local/bin/estool expired-rm <retention days>}
 ~~~
 ### 2.2.2 命令范例
 ~~~
@@ -38,7 +38,7 @@ Usage: /usr/local/bin/estool expired-rm &lt;retention days&gt;
 ### 2.3.1 命令帮助
 ~~~
 # estool topic-rm
-Usage: /usr/local/bin/estool shrink-shard &lt;retention days&gt;
+Usage: /usr/local/bin/estool topic-rm <topic name> <retention days>}
 ~~~
 实现原理，请参阅，https://www.cmdschool.org/archives/30945
 ### 2.3.2 命令范例
@@ -49,7 +49,7 @@ Usage: /usr/local/bin/estool shrink-shard &lt;retention days&gt;
 ### 2.4.1 命令帮助
 ~~~
 # estool shrink-shard
-Usage: /usr/local/bin/estool shrink-shard &lt;topic name&gt; &lt;retention days&gt;
+Usage: /usr/local/bin/estool shrink-shard <retention days>}
 ~~~
 ### 2.4.2 命令范例
 ~~~
